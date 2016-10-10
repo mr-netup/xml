@@ -10,7 +10,7 @@
   <channel id="SoftitiTV2">
     <display-name>Live TV 2</display-name>
     <icon src="" />
-    <url>https://devimages.apple.com.edgekey.net/streaming/examples/bipbop_4x3/bipbop_4x3_variant.m3u8</url>
+    <url>http://solutions.brightcove.com/jwhisenant/hls/apple/bipbop/bipbopall.m3u8</url>
   </channel>
   <programme start="20080715003000 -0600" stop="20080715010000 -0600" channel="SoftitiTV1">
     <title lang="en">Русское ТВ</title>
