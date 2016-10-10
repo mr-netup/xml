@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE tv SYSTEM "xmltv.dtd">
+
+<tv source-info-url="http://smarttv.c0.pl/" source-info-name="Schedules Direct">
+  <channel id="SoftitiTV.Live">
+    <display-name>Live TV</display-name>
+    <icon src="" />
+    <url>http://tv.life.ru/lifetv/720p/index.m3u8</url>
+  </channel>
+  <channel id="SoftitiTV.VOD">
+    <display-name>VOD</display-name>
+    <display-name>On Demand</display-name>
+    <icon src="" />
+  </channel>
+  <programme start="20080715003000 -0600" stop="20080715010000 -0600" channel="SoftitiTV.Life">
+    <title lang="en">Warto pindolic</title>
+    <desc lang="en">Naprawdę warto</desc>
+    <date>20161010</date>
+    <category lang="en">Life test</category>
+  </programme>
+  <programme start="20080715003000 -0600" stop="20080715010000 -0600" channel="SoftitiTV.VOD">
+    <title lang="en">Apple HLS - Basic stream</title>
+    <desc lang="en">Apple's reference HLS stream - basic stream</desc>
+    <date>20161010</date>
+    <category lang="en">HLS test</category>
+    <url>https://devimages.apple.com.edgekey.net/streaming/examples/bipbop_4x3/bipbop_4x3_variant.m3u8</url>
+  </programme>
+  <programme start="20080715003000 -0600" stop="20080715010000 -0600" channel="SoftitiTV.VOD">
+    <title lang="en">Apple HLS - Basic stream with I-frames</title>
+    <desc lang="en">Apple's reference HLS stream - basic stream with I-framse and alternate audio</desc>
+    <date>20161010</date>
+    <category lang="en">HLS test</category>
+    <url>https://devimages.apple.com.edgekey.net/streaming/examples/bipbop_16x9/bipbop_16x9_variant.m3u8</url>
+  </programme>
+  <programme start="20080715003000 -0600" stop="20080715010000 -0600" channel="SoftitiTV.VOD">
+    <title lang="en">Apple HLS - Advanced stream TS</title>
+    <desc lang="en">Apple's reference HLS stream - advanced stream TS</desc>
+    <date>20161010</date>
+    <category lang="en">HLS test</category>
+    <url>https://tungsten.aaplimg.com/VOD/bipbop_adv_example_v2/master.m3u8</url>
+  </programme>
+  <programme start="20080715003000 -0600" stop="20080715010000 -0600" channel="SoftitiTV.VOD">
+    <title lang="en">Apple HLS - Advanced stream fMP4</title>
+    <desc lang="en">Apple's reference HLS stream - advanced stream fMP4</desc>
+    <date>20161010</date>
+    <category lang="en">HLS test</category>
+    <url>https://tungsten.aaplimg.com/VOD/bipbop_adv_fmp4_example/master.m3u8</url>
+  </programme>
+</tv>
