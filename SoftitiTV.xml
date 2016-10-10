@@ -12,11 +12,11 @@
     <display-name>On Demand</display-name>
     <icon src="" />
   </channel>
-  <programme start="20080715003000 -0600" stop="20080715010000 -0600" channel="SoftitiTV.Life">
+  <programme start="20080715003000 -0600" stop="20080715010000 -0600" channel="SoftitiTV.Live">
     <title lang="en">Warto pindolic</title>
     <desc lang="en">Naprawdę warto</desc>
     <date>20161010</date>
-    <category lang="en">Life test</category>
+    <category lang="en">Live test</category>
   </programme>
   <programme start="20080715003000 -0600" stop="20080715010000 -0600" channel="SoftitiTV.VOD">
     <title lang="en">Apple HLS - Basic stream</title>
