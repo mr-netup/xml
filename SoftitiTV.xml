@@ -2,20 +2,31 @@
 <!DOCTYPE tv SYSTEM "xmltv.dtd">
 
 <tv source-info-url="http://smarttv.c0.pl/" source-info-name="Schedules Direct">
-  <channel id="SoftitiTV">
+  <channel id="SoftitiTV1">
     <display-name>Live TV</display-name>
     <icon src="" />
     <url>http://tv.life.ru/lifetv/720p/index.m3u8</url>
   </channel>
-  <programme start="20080715003000 -0600" stop="20080715010000 -0600" channel="SoftitiTV.Live">
+  <channel id="SoftitiTV2">
+    <display-name>Live TV 2</display-name>
+    <icon src="" />
+    <url>http.apple.com.edgesuite.net/1010qwoeiuryfg/sl.m3u8</url>
+  </channel>
+  <programme start="20080715003000 -0600" stop="20080715010000 -0600" channel="SoftitiTV1">
     <title lang="en">Русское ТВ</title>
     <desc lang="en">И вправду русское</desc>
     <date>20161010</date>
     <category lang="en">Live test</category>
   </programme>
-  <programme start="20080715010000 -0600" stop="20080715013000 -0600" channel="SoftitiTV.Live">
+  <programme start="20080715010000 -0600" stop="20080715013000 -0600" channel="SoftitiTV1">
     <title lang="en">Other TV</title>
     <desc lang="en">Cool TV</desc>
+    <date>20161010</date>
+    <category lang="en">Live test</category>
+  </programme>
+  <programme start="20080715003000 -0600" stop="20080715010000 -0600" channel="SoftitiTV2">
+    <title lang="en">Some other TV</title>
+    <desc lang="en">Very cool TV</desc>
     <date>20161010</date>
     <category lang="en">Live test</category>
   </programme>
