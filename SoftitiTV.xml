@@ -13,8 +13,9 @@
     <url>http://solutions.brightcove.com/jwhisenant/hls/apple/bipbop/bipbopall.m3u8</url>
   </channel>
   <programme start="20080715003000 -0600" stop="20080715010000 -0600" channel="SoftitiTV1">
-    <title lang="en">Русское ТВ</title>
-    <desc lang="en">И вправду русское</desc>
+    <title lang="ru">Русское ТВ</title>
+    <sub-title lang="ru">Действительно русское</sub-title>
+    <desc lang="ru">И вправду русское</desc>
     <date>20161010</date>
     <category lang="en">Live test</category>
   </programme>
