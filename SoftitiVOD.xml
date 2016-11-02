@@ -2,48 +2,27 @@
 <!DOCTYPE tv SYSTEM "xmltv.dtd">
 
 <tv source-info-url="http://smarttv.c0.pl/" source-info-name="Schedules Direct">
-  <channel id="SoftitiVOD1">
-    <display-name>Live TV</display-name>
-    <icon src="" />
-    <url>http://tv.life.ru/lifetv/720p/index.m3u8</url>
-  </channel>
-  <channel id="SoftitiVOD2">
-    <display-name>VOD</display-name>
-    <display-name>On Demand</display-name>
+  <channel id="Serials">
+    <display-name>Serials</display-name>
     <icon src="" />
   </channel>
-  <programme start="20080715003000 -0600" stop="20080715010000 -0600" channel="SoftitiVOD1">
-    <title lang="en">Warto pindolic</title>
-    <desc lang="en">Naprawdę warto</desc>
-    <date>20161010</date>
-    <category lang="en">Live test</category>
+  <channel id="Action">
+    <display-name>Action</display-name>
+    <icon src="" />
+  </channel>
+  <programme channel="Serials">
+    <title lang="en">Dlaczego ja?</title>
+    <desc lang="en">Very interesting serial</desc>
+    <url>http://solutions.brightcove.com/jwhisenant/hls/akamai/big-buck-bunny/akamai-big-buck-bunny_master.m3u8</url>
   </programme>
-  <programme start="20080715003000 -0600" stop="20080715010000 -0600" channel="SoftitiVOD1">
-    <title lang="en">Apple HLS - Basic stream</title>
-    <desc lang="en">Apple's reference HLS stream - basic stream</desc>
-    <date>20161010</date>
-    <category lang="en">HLS test</category>
-    <url>https://devimages.apple.com.edgekey.net/streaming/examples/bipbop_4x3/bipbop_4x3_variant.m3u8</url>
+  <programme channel="Serials">
+    <title lang="en">Trudne sprawy</title>
+    <desc lang="en">Even more interesting serial</desc>
+    <url>http://solutions.brightcove.com/jwhisenant/hls/apple/bipbop-16x9/bipbop_16x9_variant.m3u8</url>
   </programme>
-  <programme start="20080715003000 -0600" stop="20080715010000 -0600" channel="SoftitiVOD1">
-    <title lang="en">Apple HLS - Basic stream with I-frames</title>
-    <desc lang="en">Apple's reference HLS stream - basic stream with I-framse and alternate audio</desc>
-    <date>20161010</date>
-    <category lang="en">HLS test</category>
-    <url>https://devimages.apple.com.edgekey.net/streaming/examples/bipbop_16x9/bipbop_16x9_variant.m3u8</url>
-  </programme>
-  <programme start="20080715003000 -0600" stop="20080715010000 -0600" channel="SoftitiVOD2">
-    <title lang="en">Apple HLS - Advanced stream TS</title>
-    <desc lang="en">Apple's reference HLS stream - advanced stream TS</desc>
-    <date>20161010</date>
-    <category lang="en">HLS test</category>
-    <url>https://tungsten.aaplimg.com/VOD/bipbop_adv_example_v2/master.m3u8</url>
-  </programme>
-  <programme start="20080715003000 -0600" stop="20080715010000 -0600" channel="SoftitiVOD2">
-    <title lang="en">Apple HLS - Advanced stream fMP4</title>
-    <desc lang="en">Apple's reference HLS stream - advanced stream fMP4</desc>
-    <date>20161010</date>
-    <category lang="en">HLS test</category>
-    <url>https://tungsten.aaplimg.com/VOD/bipbop_adv_fmp4_example/master.m3u8</url>
+  <programme channel="Action">
+    <title lang="en">Batman</title>
+    <desc lang="en">Very interesting film</desc>
+    <url>http://solutions.brightcove.com/jwhisenant/hls/brightcove/fishtank/16x9-fishtank-master.m3u8</url>
   </programme>
 </tv>
