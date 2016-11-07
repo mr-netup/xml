@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <!DOCTYPE tv SYSTEM "xmltv.dtd">
 
-<tv source-info-url="http://smarttv.c0.pl/" source-info-name="Schedules Direct">
+<tv>
   <channel id="Serials">
     <display-name>Serials</display-name>
     <icon src="" />

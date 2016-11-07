@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <!DOCTYPE tv SYSTEM "xmltv.dtd">
 
-<tv source-info-url="http://smarttv.c0.pl/" source-info-name="Schedules Direct">
+<tv>
   <channel id="SoftitiTV1">
     <display-name>Live TV</display-name>
-    <icon src="" />
+    <icon src="http://raw.githubusercontent.com/mr-netup/xml/master/live_tv1.png" />
     <url>http://tv.life.ru/lifetv/720p/index.m3u8</url>
   </channel>
   <channel id="SoftitiTV2">
     <display-name>Live TV 2</display-name>
-    <icon src="" />
+    <icon src="http://raw.githubusercontent.com/mr-netup/xml/master/live_tv2.png" />
     <url>http://solutions.brightcove.com/jwhisenant/hls/apple/bipbop/bipbopall.m3u8</url>
   </channel>
   <programme start="20080715003000 -0600" stop="20080715010000 -0600" channel="SoftitiTV1">
